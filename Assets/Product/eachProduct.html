@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="eachProduct.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <body>
+      <nav>
+        <h1>RYU.</h1>
+        <div class="bar">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="navItems">
+          <ul>
+            <li><a href="../../index.html">HOME</a></li>
+            <li><a href="../About/about.html">ABOUT</a></li>
+            <li><a href="../Contact/contact.html">CONTACT</a></li>
+            <li><a href="./product.html">PRODUCT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="productPage">
+        <!-- /IMAGE/ -->
+        <img src="" id="productImage" alt="" />
+
+        <div class="productContent">
+          <!-- /NAME/ -->
+          <div class="oneLine">
+            <h1 id="productName"></h1>
+            <p class="icon" onclick="icon()">&hearts;</p>
+          </div>
+
+          <p class="shortTitle">Summer Comfort</p>
+
+          <p class="productDetail">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Perspiciatis, vitae.
+          </p>
+          <!-- /Price/ -->
+          <div class="pPrice">
+            <span><del>$2.99</del></span> <span id="productPrices"></span>
+          </div>
+
+          <div>
+            <!-- /REVIEWS/ -->
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"> </span>
+            <span>122 reviews</span>
+          </div>
+          <p>
+            <b>Color :</b> Black <input type="radio" /> White
+            <input type="radio" />
+          </p>
+
+          <span>
+            <!-- <p> -->
+            <b>Size:</b>
+            <select name="" id="">
+              <option value="">XXL</option>
+              <option value="">XL</option>
+              <option value="">L</option>
+              <option value="">M</option>
+              <option value="">S</option>
+            </select>
+            <!-- </p> -->
+          </span>
+
+          <span class="quantity">
+            <div class="increment">
+              <p class="operator" id="dec">-</p>
+              <div id="result">1</div>
+              <p class="operator" id="inc">+</p>
+            </div>
+
+            <button id="selectBtn">Select size</button>
+          </span>
+          <p class="des">
+            <b>Description :</b> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Natus incidunt, aliquam quia libero culpa facilis
+            nesciunt magni minima, accusantium rem inventore itaque! Accusantium
+            mollitia, libero obcaecati maiores sapiente provident consequatur.
+          </p>
+
+          <button id="buyBtn">BUY NOW</button>
+        </div>
+      </div>
+      <div class="moreProducts"><h2>More Products</h2></div>
+      <footer>
+        <span>
+          <h2>More About Company</h2>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+            ipsum ipsam cumque, delectus assumenda et impedit <br />
+            ducimus modi in corporis perferendis laboriosam nam fugit
+            <br />laborum quidem sapiente? Libero eum velit fuga, magni. <br />
+          </p>
+          <p>-Ryn</p>
+        </span>
+        <span>
+          <h2>Keep Connected</h2>
+          <ul>
+            <li><i class="fa-brands fa-facebook"></i> Like us on Facebook</li>
+            <li><i class="fa-brands fa-linkedin"></i> Follow us on Linkedin</li>
+            <li><i class="fa-brands fa-x-twitter"></i> Follow us on Twitter</li>
+            <li>
+              <i class="fa-brands fa-pinterest"></i> Follow us on Pinterest
+            </li>
+          </ul>
+        </span>
+        <span>
+          <h2>Contact Information</h2>
+          <ul>
+            <li><i class="fa-solid fa-building"></i> The Company Name</li>
+            <li><i class="fa-solid fa-address-book"></i> Karachi,Pakistan</li>
+            <li><i class="fa-solid fa-phone"></i> 1234567890</li>
+            <li><i class="fa-solid fa-envelope"></i> reyan@gmail.com</li>
+          </ul>
+        </span>
+      </footer>
+      <div class="xero">
+        <p>
+          <i class="fa-regular fa-copyright"></i> Simple Footer. All Rights
+          Reserved | Design By REYAN
+        </p>
+        <div>
+          <p>Company Information | Privacy Policy | Terms & Conditions</p>
+        </div>
+      </div>
+    </body>
+    <script src="./script.js"></script>
+  </body>
+</html>
